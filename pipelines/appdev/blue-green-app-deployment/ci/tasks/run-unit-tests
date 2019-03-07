@@ -3,5 +3,5 @@
 set -xe
 
 cd concourse-pipeline-samples/pipelines/appdev/blue-green-app-deployment/bgd-app
-npm install -g n && n stable
+npm install 
 mocha tests --recursive
